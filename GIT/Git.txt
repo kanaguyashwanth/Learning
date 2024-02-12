@@ -1,0 +1,88 @@
+Git
+gitforwindows.org
+
+cmd:
+git clone <link>
+cd {name_of_directory}
+git remote -v
+push: This will send all the local changes done in the directory and pushes to the central repository.
+fetch: Changes done on the remote repository are fetched to the local directory.
+
+
+git <command> -h        [HELP]
+git clone -h
+git remote -h
+
+git commit:
+a set of saved repository changes
+it is never lost
+contains a hash key
+always the same
+
+
+HOW TO COMMIT:
+git add .
+adds all the file changes to the staging area
+git commit -m “Initial commit”
+allows us to create a commit along with a comment
+git log
+gives us an overview of commits
+
+
+
+git add <filename>
+adds one or more files to staging
+git reset <filename>
+removes one or more files from staging
+git status
+print repository status
+
+
+STAGING:
+- Certain files are committed and certain files are left undisturbed.
+command:
+git add .
+git add file1.txt file3.txt file5.txt
+echo staged > stagedFile.txt
+echo unstaged > unstagedFile.txt
+git add stagedFile.txt
+git status                                 [Here, it will show all the files that are]
+git reset stagedFile.txt            [This will remove all the files from staging]
+git status
+
+
+git branch
+Lists the names of branchs
+* indicates that you are currently working on that branch
+git branch <branchname>
+Creates a new branch with the name
+git checkout <branchname>
+To change branch
+git show <hash>
+Shows the commit details
+git show --name-only <hash>
+Shows the commit details only name
+git reflog
+Gives info about all the changes that happened, including all commits on all branches.
+
+CREATING A NEW FILE ON MASTER BRANCH, THEN NEW FILE ON FEATURE BRANCH:
+git checkout main                      [Switches to main branch]
+echo master branch > newFileMaster.txt
+Now, we add & commit new file
+git add .
+git commit -m “Master branch commit”
+git log
+Now, we change the branch and create a new file on FEATURE BRANCH
+git branch FeatureBranch           [Creates a new branch called FeatureBranch]
+git checkout FeatureBranch
+echo feature branch > newFileFeature.txt
+Now, we add & commit new file
+git add .
+git commit -m “Feature branch commit”
+git log
+
+
+
+
+
+PUSH AND PULL:

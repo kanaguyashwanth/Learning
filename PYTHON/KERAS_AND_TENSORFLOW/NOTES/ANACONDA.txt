@@ -1,0 +1,16 @@
+cmd:
+-conda create -n mytfenv or create -n mytfenv python=3.7 [tensorflow environment]
+-conda activate mytfenv
+-cd {directory_where_notebook_file_&_requirements.txt_are_present}
+-conda install pip
+-pip install -r requirements.txt
+-jupyter notebook   [automatically creates a webpage file in the specified directory]
+
+
+NOTE: [Jupyter Notebook]
+--> In order to use the environment, we have to ACTIVATE it first.
+
+
+In Jupyter Notebook,
+-import tensorflow as tf
+-tf.__version__
