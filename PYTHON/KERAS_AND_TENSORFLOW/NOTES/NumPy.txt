@@ -1,5 +1,0 @@
-NUMPY:
-- Numerical Python
-- Uses less memory than normal python lists
-
-
