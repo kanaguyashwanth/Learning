@@ -73,7 +73,7 @@ Get a random number
 Swap it with the revere of the index of the list
 '''
 
-# CONVERTING FROM A STRING TO LIST
+# CONVERTING FROM A STRING TO LIST                 # VERY IMPORTANT
 new_list = []
 n1 = len(new_str)
 for n in range (0, n1):
