@@ -1,0 +1,16 @@
+27/02/2024
+
+Linear Regression:
+y = mx + c
+
+In ML,
+y = wx + b
+w-weight
+b-bias
+
+Linear Expression is just an approximate value of something in a system.
+
+System of Linear expressions would give the closest answer possible.
+
+Difference between Linear vs. Non-Linear system of equations.
+- Linear: U can add the weights as multiplying them with some numbers and adding the constants.
