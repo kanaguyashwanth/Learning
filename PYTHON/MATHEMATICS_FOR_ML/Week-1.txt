@@ -13,4 +13,18 @@ Linear Expression is just an approximate value of something in a system.
 System of Linear expressions would give the closest answer possible.
 
 Difference between Linear vs. Non-Linear system of equations.
-- Linear: U can add the weights as multiplying them with some numbers and adding the constants.
+- Linear:     U can multiply the weights with some numbers and adding the constants. (Straight line)
+- Non-Linear: We cannot just multiply with weights and add constants. (Could be exponential)
+
+Solution Types: [System of Equations]
+a. Unique Solution    / Complete      / Non-Singular / Lines Intersect
+b. Infinite Solutions / Redundant     / Singular     / Lines overlap each other
+c. No Solution	      / Contradictory / Singular     / Parallel Lines
+
+
+System of Equations as a Plane:
+- Unique Solution    - Point on a Plane
+- Infinite Solutions - Line on a Plane
+- No Solution	     - Plane on Plane
+
+
