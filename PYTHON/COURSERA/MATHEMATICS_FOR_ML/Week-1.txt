@@ -1,0 +1,70 @@
+27/02/2024
+
+Linear Regression:
+y = mx + c
+
+In ML,
+y = wx + b
+w-weight
+b-bias
+
+Linear Expression is just an approximate value of something in a system.
+
+System of Linear expressions would give the closest answer possible.
+
+
+Difference between Linear vs. Non-Linear system of equations.
+- Linear:     U can multiply the weights with some numbers and adding the constants. (Straight line)
+- Non-Linear: We cannot just multiply with weights and add constants. (Could be exponential)
+
+
+Solution Types: [System of Equations]
+a. Unique Solution    / Complete      / Non-Singular / Lines Intersect
+b. Infinite Solutions / Redundant     / Singular     / Lines overlap each other
+c. No Solution	      / Contradictory / Singular     / Parallel Lines
+
+
+System of Equations as a Plane:
+- Unique Solution    - Point on a Plane
+- Infinite Solutions - Line on a Plane
+- No Solution	     - Plane on Plane
+
+
+MATRIX:
+- Linear Dependence:
+	- If the rows are dependent on each other -> Linearly Dependent		[Some relation between rows]
+	- If the rows are not depenedent on each other -> Linearly Independent	[No relation between rows]
+
+
+- Determinant:
+
+Det=0 -> Singular Matrix
+Det not =0 -> Non-singular Matrix
+
+	- Calculate for 2x2 Matrix [ad-bc=determinant]
+	- Calculate for 3x3 Matrix []
+		[ a b c ]
+		[ d e f ]
+		[ g h i ]3x3
+		
+		Example 1: [Calculate the determinant]
+		[ 1 0 1 ]
+		[ 0 1 0 ]
+		[ 3 3 3 ]3x3
+		
+		Determinant -> 1x1x3 + 0x0x3 + 1x0x3 - 3x1x1 - 0x0x3 - 1x3x0 => 3 + 0 + 0 - 3 - 0 - 0
+									     => 3 - 3
+									     => 0
+									     => Thus, it is a Singular Matrix
+
+		
+		Example 2: [Calculate the determinant]
+		[ 1 1 1 ]
+		[ 1 1 2 ]
+		[ 0 0 -1]3x3
+		
+		Determinant -> 1x1x-1 + 1x2x0 + 1x1x0 - 0x1x1 - 1x1x-1 - 1x0x2 => -1 + 0 + 0 - 0 - 0 - (-1)
+									       => -1 + 1
+									       => 0
+									       => Thus, it is a Non-Singular Matrix
+
