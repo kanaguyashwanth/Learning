@@ -1,0 +1,7 @@
+zebrapikachoo
+abc
+23
+3.14
+3+2j
+elephant
+rhino
