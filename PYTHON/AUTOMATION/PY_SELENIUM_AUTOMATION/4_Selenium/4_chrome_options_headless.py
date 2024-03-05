@@ -1,12 +1,22 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
 
-driver = webdriver.Chrome()                         # Opens Chrome
+chrome_driver_path = "C:\\Users\\kyas\\Downloads\\chromedriver-win64\\chromedriver.exe"
+chrome_service = Service(chrome_driver_path)
+
+#driver = webdriver.Chrome()                         # Opens Chrome
+driver = webdriver.Chrome(service=chrome_service)
 driver.get("https://www.saucedemo.com/")            # Opens Link
-driver.maximize_window()                            # Maximizes window size
+#driver.maximize_window()                            # Maximizes window size
 print(driver.title)                                 # Prints the title of the webpage
 print(driver.current_url)                           # Prints webpage url
+
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument("--start-maximized")
+chrome_options.add_argument("headless")
+chrome_options.add_argument("--ignore-certificate-errors")
 
 
 '''
