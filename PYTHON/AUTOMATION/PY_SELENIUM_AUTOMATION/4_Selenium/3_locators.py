@@ -24,9 +24,9 @@ Locators provided by Selenium: [Search for them on webpage by inspect element]
 # METHOD 1: (Using ID)
 Now after visiting the webpage, we want to type the credential on the textfield (saucedemo.com)
 '''
-# driver.find_element(By.ID, 'user-name').send_keys('standard_user')
-# driver.find_element(By.ID, 'password').send_keys('secret_sauce')
-# driver.find_element(By.ID, 'login-button').click()
+driver.find_element(By.ID, 'user-name').send_keys('standard_user')
+driver.find_element(By.ID, 'password').send_keys('secret_sauce')
+driver.find_element(By.ID, 'login-button').click()
 
 
 '''
@@ -52,9 +52,9 @@ Other Valid CSSSelectors:
 .classname
 
 '''
-driver.find_element(By.CSS_SELECTOR, "input[type='text']").send_keys('standard_user')
-driver.find_element(By.CSS_SELECTOR, "input[type='password']").send_keys('secret_sauce')
-driver.find_element(By.CSS_SELECTOR, "input[type='submit']").click()
+# driver.find_element(By.CSS_SELECTOR, "input[type='text']").send_keys('standard_user')
+# driver.find_element(By.CSS_SELECTOR, "input[type='password']").send_keys('secret_sauce')
+# driver.find_element(By.CSS_SELECTOR, "input[type='submit']").click()
 
 
 

@@ -1,9 +1,9 @@
 import time
 from selenium import webdriver
-from selenium.common import NoSuchElementException, ElementClickInterceptedException, TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
+from selenium.common import NoSuchElementException, ElementClickInterceptedException, TimeoutException
 
 driver = webdriver.Chrome()                          # Opens Chrome
 driver.get("https://onesupport.apps.homedepot.com/") # Opens Link
