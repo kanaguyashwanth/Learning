@@ -1,0 +1,27 @@
+Nashville Number System - I II III IV V VI VII (All scales)
+
+SCALES:
+		  I II III IV V VI VII
+
+	C-Major - RtNote W W H W W W  H (Forwards)
+		- 
+	C-Minor - RtNote W H W W H W  W (Forwards)
+
+		For C-minor scale, III VI VII lowered half step compared to C-major Scale.
+
+
+
+
+CHORDS:
+	Triads - I III V
+
+
+
+
+CHORD PROGRESSIONS:
+	
+	I	II	III
+      Major    Minor   Minor
+	
+       IV	V	VI
+      Major    Major   Minor
