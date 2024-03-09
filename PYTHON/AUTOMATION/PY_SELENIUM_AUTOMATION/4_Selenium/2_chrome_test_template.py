@@ -11,4 +11,4 @@ print(driver.current_url)                           # Prints webpage url
 
 
 
-time.sleep(4)
+time.sleep(30)
