@@ -1,19 +1,21 @@
 # MATHEMATICAL OPERATIONS
 
-print (3+5)
-print (7-4)
-print (3*2)
-print (type(6 / 3))
-print (2**2) # 2 power 2 = 4
+print(3+5)
+print(7-4)
+print(3*2)
+print(type(6 / 3))
+print(2**2) # 2 power 2 = 4
 
 # When there are more than one operation on same line:
 # ORDER PRIORITY
 '''
 ORDER: [Same line = Equally important, Most left = More priority(Calculation goes from left to right]
-()
-**
-* /
-+ -
+()          (P)aranthesis
+**          (E)xponential
+* /         (M)ultiplication (D)ivision
++ -         (A)ddition       (S)ubtraction
+
+                        PEMDAS (Left to Right [Order of Priority])
 
 PEMDASLR:
 () - Paranthesis
