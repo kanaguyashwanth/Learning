@@ -19,3 +19,10 @@ a = c
 # 🚨 Don't change the code below 👇
 print("a: " + a)
 print("b: " + b)
+
+
+#Swap 2 variables without using 3rd variable
+
+# a = a + b
+# b = a - b
+# a = a - b
