@@ -11,11 +11,12 @@ What are functions?
 
 # TYPE CHECK
 num_char = len (input("What is your name? "))
-print("\n")
+print(f"Number of characters: {num_char}\n")
 print("Performing Type Check")
 print(type(num_char))
 print("\n")
 # print ("Your name has " + num_char + " characters.") - Gives a Type Error, since num_char is an Integer and we are trying to print Strings
+
 
 # TYPE CONVERSION
 new_num_char = str(num_char)

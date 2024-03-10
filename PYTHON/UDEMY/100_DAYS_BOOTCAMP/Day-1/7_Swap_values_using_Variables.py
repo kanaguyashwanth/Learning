@@ -1,4 +1,4 @@
-# CHALLENGE: Write a program that switches the values stored in the variables a and b.
+# CHALLENGE_1: Write a program that switches the values stored in the variables a and b.
 
 # 🚨 Don't change the code below 👇
 a = input("a: ")
@@ -21,7 +21,10 @@ print("a: " + a)
 print("b: " + b)
 
 
-#Swap 2 variables without using 3rd variable
+
+
+
+# CHALLENGE_2: Swap 2 variables without using 3rd variable
 
 # a = a + b
 # b = a - b
