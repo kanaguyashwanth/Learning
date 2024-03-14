@@ -1,6 +1,6 @@
 # LISTS
 
-# Variabe --> Single piece of Data
+# Variable --> Single piece of Data
 # List    --> Grouped pieces of Data
 
 # Where to use?
