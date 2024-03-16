@@ -1,22 +1,38 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
 
-chrome_driver_path = "C:\\Users\\kyas\\Downloads\\chromedriver-win64\\chromedriver.exe"
-chrome_service = Service(chrome_driver_path)
-
-#driver = webdriver.Chrome()                         # Opens Chrome
-driver = webdriver.Chrome(service=chrome_service)
-driver.get("https://www.saucedemo.com/")
-#driver.maximize_window()
-print(driver.title)
-print(driver.current_url)
-
+# STEP 1: RUN HEADLESS MODE
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument("--start-maximized")
-chrome_options.add_argument("headless")
-chrome_options.add_argument("--ignore-certificate-errors")
+chrome_options.add_argument("--headless")
+driver = webdriver.Chrome(options=chrome_options)
+driver.maximize_window()
+driver.get("https://www.saucedemo.com/")
+driver.find_element(By.CSS_SELECTOR, "input[type='text']").send_keys('standard_user')
+driver.find_element(By.CSS_SELECTOR, "input[type='password']").send_keys('secret_sauce')
+driver.find_element(By.CSS_SELECTOR, "input[type='submit']").click()
+
+# STEP 2: FINDING THE HEIGHT OF THE PAGE
+# We know width of page is constant
+webpage_width = 1920
+# Getting the height of the page through JS code
+webpage_height = driver.execute_script("return Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);")
+# Setting the window size
+driver.set_window_size(webpage_height, webpage_height)
+
+# STEP 3: TAKING SCREENSHOT OF WEBPAGE
+page_body = driver.find_element(By.TAG_NAME, 'body')
+page_body.screenshot("full_page_screenshot.png")
+
+driver.quit()
+
+
+
+
+
+
+
+
 
 
 '''
@@ -62,9 +78,9 @@ Other Valid CSSSelectors:
 .classname
 
 '''
-driver.find_element(By.CSS_SELECTOR, "input[type='text']").send_keys('standard_user')
-driver.find_element(By.CSS_SELECTOR, "input[type='password']").send_keys('secret_sauce')
-driver.find_element(By.CSS_SELECTOR, "input[type='submit']").click()
+# driver.find_element(By.CSS_SELECTOR, "input[type='text']").send_keys('standard_user')
+# driver.find_element(By.CSS_SELECTOR, "input[type='password']").send_keys('secret_sauce')
+# driver.find_element(By.CSS_SELECTOR, "input[type='submit']").click()
 
 
 
@@ -72,6 +88,3 @@ driver.find_element(By.CSS_SELECTOR, "input[type='submit']").click()
 # METHOD 4: (LinkText)
 - Wherever there is a   
 '''
-
-
-time.sleep(300)
