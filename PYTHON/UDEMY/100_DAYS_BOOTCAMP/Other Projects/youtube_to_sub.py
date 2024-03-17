@@ -3,6 +3,10 @@ import moviepy.editor as mp
 import speech_recognition as sr
 from pytube import YouTube
 
+import os
+print(os.getcwd())
+
+
 # Download YouTube video
 url = 'https://www.youtube.com/watch?v=yx3eR04wdfY&list=PL6X5MDnC9oqOrCtwCxo3VsVMbLpNW7SkK&index=2'
 yt = YouTube(url)

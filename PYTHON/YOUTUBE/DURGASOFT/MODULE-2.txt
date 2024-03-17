@@ -1,17 +1,34 @@
 FEATURES OF PYTHON:
 -------------------
 1. Java has 53 keywords, Python has 30 keywords - less lines of code
-2. FREEWARE, OPEN-SOURCE - no license to run python. OPEN SOURCE - we can customize python and release our own versions of python.
-3. HIGH LEVEL LANGUAGE   - Very easy to understand, memory-level activities, machine-level activities are taken care by Python. C# / Python / .NET -> All are HIGH LEVEL LANGUAGES ONLY
-4. PLATFORM INDEPENDANT  - Can be run anywhere on any OS (WORA) - Write Once Read Anywhere
+
+2. FREEWARE, OPEN-SOURCE - a. no license to run python, free of cost
+			 - b. customize python and release our own versions of python.
+
+3. HIGH LEVEL LANGUAGE   - Very easy to understand, MEMORY-LEVEL activities, MACHINE-LEVEL activities are taken care by Python. 
+			 - Examples: / C# / .NET / C / C++ / JAVA / Python /
+
+4. PLATFORM INDEPENDANT  - a. Can be run anywhere on any OS (WORA) 
+			 - b. WRITE ONCE READ ANYWHERE
+			 - c. This feature makes it highly-PORTABLE
+
 5. PORTABILITY           - Moving code from one platform to another machine like Linux without making any change in code.
-6. DYNAMICALLY TYPED     - Not required to type the values, based on the values the type will be considered.
-7. PROCEDURE&OBJECT ORI. - Without(with just functions) and with(with classes & object), we can write the program. JAVA is Object-Oriented. C is Procedure-Oriented
-8. INTERPRETED           - It is not required to compile unlike JAVA, it can be run without compiling first. Python interpreter takes care of the compilation(if compilation fails, interpreter raises errors.)
+
+6. DYNAMICALLY TYPED     - a. Not required to type the values, based on the values the type will be considered.
+			 - b. Statically-typed: C, C++, JAVA (We need to type the type of datatype)
+
+7. PROCEDURE&OBJECT ORI. - Without(with just functions) and with(with classes & object), we can write the program. 
+			 - JAVA is Object-Oriented. C is Procedure-Oriented
+
+8. INTERPRETED           - It is not required to compile unlike JAVA, it can be run without compiling first. 
+			 - Python interpreter takes care of the compilation(if compilation fails, interpreter raises errors.)
+
 9. EXTENSIBLE            - We can use other language programs in Python.
 	                 - If we want to improve the performance by writing it in other programs and running it through python.
 
-10. EMBEDDED             - We can use Python in any other languages. Compatible with other languages too.
+10. EMBEDDED             - We can use Python in any other languages. 
+			 - Compatible with other languages too.
+
 11. EXTENSIVE LIBRARY    - Lots of libraries are available already
 
 
