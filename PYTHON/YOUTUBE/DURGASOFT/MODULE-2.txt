@@ -49,18 +49,21 @@ LIMITATIONS:
 IDENTIFIERS IN PYTHON:
 ----------------------
 - variable name, class name, method name
-
+1. Identifier ---> x
 x=10
 
+2. Identifier ---> f1
 def f1():
     pass
 
+3. Identifier ---> Test
 class Test(Exception)
 
-
-
+4. Identifier ---> cash
 cash = 10 (Valid)
 ca$h = 10 (Invalid, valid in JAVA)
+
+
 
 
 
@@ -71,9 +74,9 @@ RULES TO DEFINE IDENTIFIERS:
    Underscore (_)
 a to z, A to Z, 0-9, _
 
-2. Identifiers should NOT start with DIGITS
+2. SHOULD NOT start with DIGITS
 
-3. Identifiers are CASE-SENSITIVE
+3. CASE-SENSITIVE
 
 4. KEYWORDS cannot be used as Identifiers
 
@@ -83,9 +86,22 @@ a to z, A to Z, 0-9, _
 
 
 
+EXERCISE: [Find which are valid identifiers]
+123total	Invalid		Should not start with numbers
+total123	Valid		Identifier
+java2share	Valid		Identifier
+ca$h		Invalid		Should not contain special characters like # $ % ^
+_abc_abc_	Valid		(Private Identifier)
+def		Invalid		Should not contain keywords like if else while for 
+if		Invalid		Should not contain keywords like if else while for 
+
+
+
+
+
 IDENTIFIER TYPES:
 -----------------
 - Normal (x=10, cash=100, abc123=4)
 - Private          (_x)       - Identifier starting with underscore is a PRIVATE IDENTIFIER
-- Highly Private   (__x)      - Identifier starting with double underscores is a HIGHLY PRIVATE IDENTIFIER
+- Strongly Private (__x)      - Identifier starting with double underscores is a HIGHLY PRIVATE IDENTIFIER
 - Language-defined (__name__) - Identifier starting and ending with two identifiers is a LANGUAGE-DEFINED IDENTIFIER
