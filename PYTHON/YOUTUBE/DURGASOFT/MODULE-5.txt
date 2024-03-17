@@ -198,3 +198,16 @@ True+False	---> 		1
 str datatype:
 -------------
 
+'' - single line
+"" - single line
+"""""" - multi line
+
+Example:
+--------
+
+1. MULTILINE: (OUTPUT must be It is a "Beautiful" day)
+print('''It is a "Beautiful" day''')
+
+2. SLICING OPERATOR: (OUTPUT must be you)
+sentence='i am you'
+print(sentence[5:8])
