@@ -1,0 +1,80 @@
+General Purpose High Level Programming Language
+Guido Van Rossam
+Feb 20th 1991 (DOB of Python)
+
+
+
+When Python came? ---> Feb 20th 1991 (Python is Older than JAVA!)
+When Java came? ---> 1995
+
+
+
+If you type the datatype, then it is STATICALLY TYPED PROGRAMMING - C & JAVA examples
+
+STATICALLY TYPED EXAMPLE: (C program)
+#include <stdio.h>
+void main()
+{
+int a,b;
+a=10;
+b=20;
+print(a+b);	--->	30
+}
+
+
+
+DYNAMICALLY TYPED EXAMPLE: (Python program)
+a,b=10,20
+print(a+b)	--->	30
+
+a,b,c,d,e=10,20,30,40,50
+type(a)		--->	<class 'int'>
+
+a=True
+type(a)		--->	<class 'bool'>
+
+
+
+
+Why the name 'Python'?
+- TV Show on BBC: Monty Python's Circus (1969-1974)
+
+
+
+
+Features BORROWED from Other Programming Languages:
+1. FUNCTIONAL PROGRAMMING from C
+2. OOPs from C++
+3. SCRIPTING LANGUAGE from PERL & SHELL SCRIPT
+4. MODULAR PROGRAMMING from MODULA-3
+
+SYNTAX borrowed from C & ABC Language
+
+
+
+
+
+WHERE CAN WE USE PYTHON:
+1. Desktop / Standalone Applications
+2. Web Applications ---> Django (Framework), Flask (Framework)
+3. Database Applications (small)
+4. Networking Applications
+5. Games
+6. Data Analysis
+7. ML
+8. AI
+9. IOT
+
+WHERE WE CANT USE PYTHON: (Not Recommended)
+1. Mobile Applications
+
+
+WHICH COMPANIES USE PYTHON:
+GOOGLE
+YOUTUBE
+DROPBOX
+NASA
+SPOTIFY
+REDDIT
+INSTAGRAM
+PINTEREST

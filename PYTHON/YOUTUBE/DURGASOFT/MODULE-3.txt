@@ -1,23 +1,52 @@
-Features of Python:
-
-1. Java has 53 keywords, Python has 30 keywords - less lines of code
-2. FREEWARE - no license to run python. OPEN SOURCE - we can customize python and release our own versions of python.
-3. HIGH LEVEL LANGUAGE - Very easy to understand, memory-level activities, machine-level activities are taken care by Python. C# / Python / .NET -> All are HIGH LEVEL LANGUAGES ONLY
-4. PLATFORM INDEPENDANT - Can be run anywhere on any OS (WORA) - Write Once Read Anywhere
-5. PORTABILITY - Moving code from one platform to another machine like Linux without making any change in code.
-6. DYNAMICALLY TYPED - Not required to type the values, based on the values the type will be considered.
-7. BOTH PROCEDURE-ORIENTED AND OBJECT-ORIENTED - Without(with just functions) and with(with classes & object), we can write the program. JAVA is Object-Oriented. C is Procedure-Oriented
-8. INTERPRETED - It is not required to compile unlike JAVA, it can be run without compiling first. Python interpreter takes care of the compilation(if compilation fails, interpreter raises errors.)
-9. EXTENSIBLE - We can use other language programs in Python.
-	      - If we want to improve the performance by writing it in other programs and running it through python.
-10. EMBEDDED - We can use Python in any other languages. Compatible with other languages too.
-11. EXTENSIVE LIBRARY - Lots of libraries are available already
+Who? - Guido Van Rossam
+When? - Feb 20th 1991
+Why its called Python? Monty Python Circus
+Is it OOP? - Yes
+Is it functional? Yes
+Is it scripting? Yes
+Is it modular? Yes
 
 
-LIMITATIONS:
-1. PERFORMANCE - Interpreted
-2. MOBILE APPLICATIONS - Bad performance
+FEATURES:
+1. Simple and Easy to understand
+2. Freeware and Opensource
+3. High Level Language
+4. Portable
+5. Dynamically Typed
+6. OOP and Procedural both
+7. Interpreted
+8. Extensible
+9. Embedded
+10.Extensive Libraries
 
 
+Limitations:
+1. Low Performance since it is interpreted
+2. Mobile applications not suitable
 
-IDENTIFIERS:
+
+Myth:
+- Not suitable for large scale enterprise applications
+
+
+FLAVORS OF PYTHON:
+1. CPython (C) [STANDARD VERSION]
+2. JPython or Jython (JAVA)
+3. IronPython (C#)
+4. PyPy (Inside PVM(python virtual machine), JIT(Just-in-time) compiler is there) - For more performance
+5. RubyPython (Ruby)
+6. AnacondaPython (To handle Big Data - Large volume of data processing)
+7. Stackless (Python for concurrency - Parallel computing)
+
+
+PYTHON VERSIONS:
+Python 1.0 - Jan 1994
+Python 2.0 - Oct 2000 - END OF LIFE (Stopped Support on 2020)
+Python 3.0 - Dec 2008
+
+
+Any new version should provide support for old versions
+
+
+THERE IS NO BACKWARD COMPATIBILITY BETWEEN PYTHON 3 and PYTHON 2
+Other Languages are having backware compatibility

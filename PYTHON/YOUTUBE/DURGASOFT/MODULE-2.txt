@@ -1,0 +1,74 @@
+FEATURES OF PYTHON:
+-------------------
+1. Java has 53 keywords, Python has 30 keywords - less lines of code
+2. FREEWARE, OPEN-SOURCE - no license to run python. OPEN SOURCE - we can customize python and release our own versions of python.
+3. HIGH LEVEL LANGUAGE   - Very easy to understand, memory-level activities, machine-level activities are taken care by Python. C# / Python / .NET -> All are HIGH LEVEL LANGUAGES ONLY
+4. PLATFORM INDEPENDANT  - Can be run anywhere on any OS (WORA) - Write Once Read Anywhere
+5. PORTABILITY           - Moving code from one platform to another machine like Linux without making any change in code.
+6. DYNAMICALLY TYPED     - Not required to type the values, based on the values the type will be considered.
+7. PROCEDURE&OBJECT ORI. - Without(with just functions) and with(with classes & object), we can write the program. JAVA is Object-Oriented. C is Procedure-Oriented
+8. INTERPRETED           - It is not required to compile unlike JAVA, it can be run without compiling first. Python interpreter takes care of the compilation(if compilation fails, interpreter raises errors.)
+9. EXTENSIBLE            - We can use other language programs in Python.
+	                 - If we want to improve the performance by writing it in other programs and running it through python.
+
+10. EMBEDDED             - We can use Python in any other languages. Compatible with other languages too.
+11. EXTENSIVE LIBRARY    - Lots of libraries are available already
+
+
+LIMITATIONS:
+------------
+1. PERFORMANCE - Interpreted
+2. MOBILE APPLICATIONS - Bad performance
+
+
+
+
+
+
+
+
+
+
+IDENTIFIERS IN PYTHON:
+----------------------
+- variable name, class name, method name
+
+x=10
+
+def f1():
+    pass
+
+class Test(Exception)
+
+
+
+cash = 10 (Valid)
+ca$h = 10 (Invalid, valid in JAVA)
+
+
+
+RULES TO DEFINE IDENTIFIERS:
+----------------------------
+1. Alphabet (both upper and lower case)
+   Digits (0 to 9)
+   Underscore (_)
+a to z, A to Z, 0-9, _
+
+2. Identifiers should NOT start with DIGITS
+
+3. Identifiers are CASE-SENSITIVE
+
+4. KEYWORDS cannot be used as Identifiers
+
+5. NO LENGTH LIMIT for Identifiers
+
+
+
+
+
+IDENTIFIER TYPES:
+-----------------
+- Normal (x=10, cash=100, abc123=4)
+- Private          (_x)       - Identifier starting with underscore is a PRIVATE IDENTIFIER
+- Highly Private   (__x)      - Identifier starting with double underscores is a HIGHLY PRIVATE IDENTIFIER
+- Language-defined (__name__) - Identifier starting and ending with two identifiers is a LANGUAGE-DEFINED IDENTIFIER
