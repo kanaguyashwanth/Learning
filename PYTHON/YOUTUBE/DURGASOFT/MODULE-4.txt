@@ -1,0 +1,161 @@
+17/03/2024
+
+
+
+RESERVED KEYWORDS: (Total-33)
+------------------
+
+- 33 Reserved words
+
+- Small programming language
+
+- Learning all these 33 keywords is learning the language
+
+
+
+True, False, None
+
+and, or, not, is
+
+if, else, elif
+
+while, for, break, continue, return, in, yield
+
+try, except, finally, raise, assert
+
+import, from, as, class, def, pass, global, nonlocal, lamda, del, with
+
+
+
+NOTE:
+-----
+1. All reserved words contain only ALPHABET SYMBOLS
+2. Except first 3, all reserved keywords are LOWERCASE
+
+
+
+Code to get all reserved keywords from Python?
+CODE:
+import keyword
+keyword.kwlist
+key_words = keyword.kwlist
+len(key_words)
+
+OUTPUT:
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+35
+
+
+
+Topics covered so far:
+----------------------
+IDENTIFIERS
+RESERVED WORDS
+
+
+
+
+
+NOTE:
+In Python, everything(datatypes,methods,attributes) is an Object!
+
+
+
+
+
+DATATYPES: (In-built Datatypes)
+-------------------------------
+int		---> 	10
+float		---> 	10.45
+complex		---> 	10 + 3j
+bool		---> 	True
+str		---> 	'yes'
+bytes		---> 	b'\x68\x65\x6c\x6c\x6f'	---> Represents bytes for hello
+bytearray	---> 	bytearray(b'hello')
+range		---> 	range(5)		---> Represents range of numbers from 0 to 4
+list		---> 	[1,2,3,4,5]
+tuple		---> 	(1,'you',True)
+set		---> 	{1,2,3,4,5}
+frozenset	---> 	({1,2,3})
+dict		---> 	{'name': 'yash', 'age': 30}
+None		---> 	None
+
+
+
+
+
+IN-BUILT FUNCTIONS: (Generally used functions, below 3)
+-------------------------------------------------------
+print()		---> 	prints a value
+type()		---> 	prints the type of value
+id()		---> 	prints the memory location of value
+
+
+
+
+
+NUMERICAL DATATYPES:
+--------------------
+
+1. int
+Integral Values
+10 20 30
+100000000000000
+
+a = 10
+
+
+Integral Forms:
+---------------
+a. Decimal form
+b. Binary form
+c. Octal form
+d. Hexa form
+
+
+a. Decimal (Base-10):
+---------------------
+0 to 9
+a = 7879
+
+
+b. Binary (Base-2):
+--------------------
+0 and 1
+Starts with 0b or 0B.
+
+x = 0b1111
+or
+x = 0B1111 
+
+for negative numbers in binary,
+x = -0b1111
+
+
+c. Octal (Base-8):
+-------------------
+0 to 7
+Starts with 0o or 0O
+a = 0o777
+
+
+d. Hexadecimal (Base-16):
+-------------------------
+0 to 9, a to f, A to F
+Starts with 0X or 0x
+a = 0XFace
+a = 0XBeef
+
+
+EXERCISE: [Try to print these and check]
+-------------------------------------------
+a=10	 ---> 	print(a)	---> 	10
+b=0o10	 ---> 	print(b)	--->	8
+c=0b10   ---> 	print(c)	--->	2
+d=0X10	 ---> 	print(d)	--->	16
+
+
+NOTE!!!!!!!!!!!!!!!
+-------------------
+From the above, we can see that Python will print
+any form of number in decimal form only!
