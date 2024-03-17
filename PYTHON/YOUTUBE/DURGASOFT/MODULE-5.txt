@@ -1,0 +1,200 @@
+18/03/2024
+----------
+
+
+
+RECAP:
+------
+- Features of Python
+- Identifiers
+- Reserved keywords
+- Datatypes
+
+
+
+
+
+SPECIALITY OF DATATYPES:
+------------------------
+- Dynamically-typed:
+	It means that we do not have to declare the datatype
+	It can change automatically if there is any other value assigned on other line, unlike other languages
+	In other languages, the variables will have the same datatype for its lifetime.
+
+
+
+
+
+DATATYPES IN PYTHON:
+--------------------
+
+int
+float
+complex
+bool
+str
+bytes
+bytesarray
+range
+list
+tuples
+set
+frozenset
+dict
+none
+
+
+
+int datatype:
+-------------
+Holds integral values
+Whole numbers ---> 1234, 3456
+
+
+Forms of Integer Datatype:
+--------------------------
+a. Decimal Form
+b. Binary Form
+c. Octal Form
+d. Hexadecimal Form
+
+
+Examples: (By default, python will print all values in Decimal Form)
+-------------------------------------------------------------------
+x = 10
+y = 0b10
+z = 0o10
+w = 0x10	     OUTPUTS:
+print(x)	--->	10
+print(y)	--->	2
+print(z)	--->	8
+print(w)	---> 	16
+
+
+
+NOTE:
+-----
+1. Size or range is not applicable - The size of a number or range can be unlimited / not restricted.
+2. Everything is an Object - All are objects in python. Their sizes are also not fixed and it is variable.
+
+
+
+
+BASE CONVERSIONS: (Converting from one form to another)
+-------------------------------------------------------
+bin()
+oct()
+hex()
+
+
+Examples of converting any form to any:
+---------------------------------------
+bin(15)
+bin(0o777)
+bin(0x1234)
+oct(786)
+oct(0xFace)
+oct(0b11111)
+hex(10)
+hex(0b111)
+hex(0o777)
+
+
+
+
+
+
+
+float datatype:
+---------------
+f=123.234
+
+
+NOTE:
+-----
+floating point number has only one form, exponential form.
+It does NOT have any other forms like BINARY, OCTAL & HEXADECIMAL.
+
+
+Exponential form: (floating point datatype)
+-------------------------------------------
+f = 1.2e3  --->  1.2 x 1000
+f = 1.2e-3 --->  1.2 x 0.001
+This form can be used to represent very large / small numbers.
+
+
+
+
+
+
+
+complex datatype:
+-----------------
+a + bj
+j^2 = -1 [j = sqrt(-1)]
+
+
+NOTE:
+-----
+ONLY j can be used!
+ONLY in the form a + bj and NOT like a + jb!
+
+
+a = Real Part
+b = Imaginary Part
+
+j^2 = -1
+
+
+Examples:
+---------
+
+1. Binary / Octal / Hexadecimal forms allowed only on REAL part, NOT on imaginary part!
+a=0b1111+3j
+
+2. 
+a=10+20j
+b=20+30j
+a+b		--->		30+50j
+a-b		--->		-10-10j
+a*b		--->		-400+700j
+a.real		---> 		10
+b.imag		--->		30
+
+
+
+
+
+
+
+bool datatype:
+--------------
+True and False
+
+
+Examples:
+--------
+
+1. 
+a=True
+type(a)		---> 		<class 'bool'>
+
+2.
+a=10
+b=20
+c=a<b
+c		---> 		True
+
+3.
+True+True	---> 		2
+True+False	---> 		1
+
+
+
+
+
+
+
+str datatype:
+-------------
+
