@@ -6,23 +6,16 @@ RESERVED KEYWORDS: (Total-33)
 ------------------
 
 - 33 Reserved words
-
 - Small programming language
-
 - Learning all these 33 keywords is learning the language
 
 
 
 True, False, None
-
 and, or, not, is
-
 if, else, elif
-
 while, for, break, continue, return, in, yield
-
 try, except, finally, raise, assert
-
 import, from, as, class, def, pass, global, nonlocal, lamda, del, with
 
 
@@ -36,12 +29,14 @@ NOTE:
 
 Code to get all reserved keywords from Python?
 CODE:
+-----
 import keyword
 keyword.kwlist
 key_words = keyword.kwlist
 len(key_words)
 
 OUTPUT:
+-------
 ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 35
 
@@ -57,6 +52,7 @@ RESERVED WORDS
 
 
 NOTE:
+-----
 In Python, everything(datatypes,methods,attributes) is an Object!
 
 

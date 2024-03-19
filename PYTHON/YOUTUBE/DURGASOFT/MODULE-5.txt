@@ -207,6 +207,14 @@ Examples:
 
 1. MULTILINE: (OUTPUT must be It is a "Beautiful" day)
 print('''It is a "Beautiful" day''')
+s = ''' THIS IS 
+	ME '''
+print(s)
+
+OUTPUT:
+-------
+ THIS IS 
+ ME
 
 2. SLICING OPERATOR: (OUTPUT must be you)
 sentence='i am you'
